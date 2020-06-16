@@ -1,0 +1,38 @@
+ {
+    "@context": "http://purl.imsglobal.org/ctx/caliper/v1p2",
+    "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+    "type": "ResourceManagementEvent",
+    "profile": "ResourceManagementProfile",
+    "actor": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Person",
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "10192",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "action": "Deleted",
+    "object": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "DigitalResource",
+      "extensions": {
+        "d2l_activityType": "https://api.brightspace.com/caliper/activities/tools/content_service/activity"
+      },
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "535ae4fb-8158-444c-aee1-95630913f971",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "eventTime": "2019-01-09T16:41:37.423Z",
+    "edApp": "https://da2a3434-e90e-473d-bb9e-1acae03c748b.lms.brightspace.com/",
+    "extensions": {
+      "d2l_originalEventId": "87213705-7590-4a2b-b314-c29bcdc7e552",
+      "d2l_tenantId": "da2a3434-e90e-473d-bb9e-1acae03c748b"
+    }
+    }

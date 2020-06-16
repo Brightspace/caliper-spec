@@ -1,0 +1,63 @@
+ {
+    "@context": "http://purl.imsglobal.org/ctx/caliper/v1p2",
+    "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+    "type": "ResourceManagementEvent",
+    "profile": "ResourceManagementProfile",
+    "actor": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Person",
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "169",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "action": "Created",
+    "object": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "DigitalResource",
+      "extensions": {
+        "d2l_activityType": "https://api.brightspace.com/caliper/activities/tools/learning_object_repository/learning_object"
+      },
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "42",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "eventTime": "2020-03-17T12:01:54.146Z",
+    "edApp": "https://161ee9b0-7c46-48d2-a6b1-e33eaf7c0195.lms.brightspace.com/",
+    "membership": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Membership",
+      "member": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "organization": {
+        "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+        "type": "Organization",
+        "otherIdentifiers": [
+          {
+            "type": "SystemIdentifier",
+            "identifier": "6606",
+            "identifierType": "SystemId"
+          }
+        ],
+        "extensions": {
+          "d2l_orgUnitType": "Organization"
+        }
+      },
+      "extensions": {
+        "d2l_roleId": "2",
+        "d2l_mappedImsRoles": [
+          "http://purl.imsglobal.org/vocab/lis/v2/institution/person#Student"
+        ]
+      }
+    },
+    "extensions": {
+      "d2l_originalEventId": "d5ab513d-0367-472f-8763-df08614ed6d9",
+      "d2l_tenantId": "161ee9b0-7c46-48d2-a6b1-e33eaf7c0195"
+    }
+  }

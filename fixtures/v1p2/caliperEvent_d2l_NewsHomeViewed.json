@@ -1,0 +1,73 @@
+ {
+    "@context": "http://purl.imsglobal.org/ctx/caliper/v1p2",
+    "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+    "type": "Event",
+    "profile": "GeneralProfile",
+    "actor": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Person",
+      "extensions": {
+        "d2l_impersonatingUser": "urn:uuid:00000000-0000-0000-0000-000000000000",
+        "d2l_impersonatingUserId": "456"
+      },
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "15961",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "action": "Viewed",
+    "object": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "DigitalResource",
+      "extensions": {
+        "d2l_activityType": "https://api.brightspace.com/caliper/activities/tools/announcement"
+      }
+    },
+    "eventTime": "2015-04-20T17:48:57.077Z",
+    "edApp": "https://09d94930-c6d9-437a-844b-46366de94354.lms.brightspace.com/",
+    "membership": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Membership",
+      "member": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "organization": {
+        "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+        "type": "Organization",
+        "otherIdentifiers": [
+          {
+            "type": "SystemIdentifier",
+            "identifier": "6606",
+            "identifierType": "SystemId"
+          }
+        ],
+        "extensions": {
+          "d2l_orgUnitTypeId": "1"
+        }
+      },
+      "extensions": {
+        "d2l_roleId": "578",
+        "d2l_mappedImsRoles": [
+                    "http://purl.imsglobal.org/vocab/lis/v2/institution/person#Student",
+                    "http://purl.imsglobal.org/vocab/lis/v2/membership#Learner"
+        ]
+      }
+    },
+    "session": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Session",
+      "user": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "3",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "extensions": {
+      "d2l_originalEventId": "11ca92b1-301b-429d-b98b-c87d9693c5be",
+      "d2l_tenantId": "09d94930-c6d9-437a-844b-46366de94354"
+    }
+  }

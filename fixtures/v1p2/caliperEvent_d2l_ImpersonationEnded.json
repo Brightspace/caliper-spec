@@ -1,0 +1,77 @@
+ {
+    "@context": "http://purl.imsglobal.org/ctx/caliper/v1p2",
+    "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+    "type": "SessionEvent",
+    "profile": "SessionProfile",
+    "actor": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Person",
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "169",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "action": "LoggedOut",
+    "object": {
+      "id": "https://09d94930-c6d9-437a-844b-46366de94354.lms.brightspace.com",
+      "type": "SoftwareApplication"
+    },
+    "eventTime": "2019-07-12T10:30:42.988Z",
+    "edApp": "https://09d94930-c6d9-437a-844b-46366de94354.lms.brightspace.com/",
+    "membership": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Membership",
+      "member": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "organization": {
+        "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+        "type": "Organization",
+        "otherIdentifiers": [
+          {
+            "type": "SystemIdentifier",
+            "identifier": "6609",
+            "identifierType": "SystemId"
+          }
+        ],
+        "extensions": {
+          "d2l_orgUnitTypeId": "3",
+          "d2l_orgUnitType": "Organization"
+        }
+      },
+      "extensions": {
+        "d2l_roleId": "69"
+      }
+    },
+    "session": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Session",
+      "user": {
+        "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+        "type": "Person",
+        "extensions": {
+          "d2l_impersonatingUser": "urn:uuid:00000000-0000-0000-0000-000000000000",
+          "d2l_impersonatingUserId": "169"
+        },
+        "otherIdentifiers": [
+          {
+            "type": "SystemIdentifier",
+            "identifier": "10183",
+            "identifierType": "SystemId"
+          }
+        ]
+      },
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "3",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "extensions": {
+      "d2l_originalEventId": "77f13658-e393-48ab-9f07-f41d2d152df8",
+      "d2l_tenantId": "09d94930-c6d9-437a-844b-46366de94354"
+    }
+    }

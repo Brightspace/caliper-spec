@@ -1,0 +1,40 @@
+ {
+    "@context": "http://purl.imsglobal.org/ctx/caliper/v1p2",
+    "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+    "type": "Event",
+    "profile": "GeneralProfile",
+    "actor": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Person",
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "0",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "action": "Created",
+    "object": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Organization",
+      "extensions": {
+        "d2l_orgId": "6606",
+        "d2l_orgUnitTypeId": "4",
+        "d2l_orgUnitVersion": "50566"
+      },
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "123084",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "eventTime": "2019-06-03T12:07:44.048Z",
+    "edApp": "https://4dbcee1d-2adb-46d9-ba03-805a5b521133.lms.brightspace.com/",
+    "extensions": {
+      "d2l_originalEventId": "2152afd9-14eb-4b15-a6c9-1fe221c6f65d",
+      "d2l_tenantId": "4dbcee1d-2adb-46d9-ba03-805a5b521133"
+    }
+  }

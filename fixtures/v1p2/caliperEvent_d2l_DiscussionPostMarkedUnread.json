@@ -1,0 +1,77 @@
+ {
+    "@context": "http://purl.imsglobal.org/ctx/caliper/v1p2",
+    "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+    "type": "MessageEvent",
+    "profile": "ForumProfile",
+    "actor": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Person",
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "169",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "action": "MarkedAsUnread",
+    "object": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Message",
+      "isPartOf": {
+        "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+        "type": "Message",
+        "extensions": {
+          "d2l_activityType": "https://api.brightspace.com/caliper/activities/tools/discussion/post"
+        },
+        "otherIdentifiers": [
+          {
+            "type": "SystemIdentifier",
+            "identifier": "12974",
+            "identifierType": "SystemId"
+          }
+        ]
+      },
+      "extensions": {
+        "d2l_activityType": "https://api.brightspace.com/caliper/activities/tools/discussion/post"
+      },
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "12975",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "eventTime": "2018-11-21T12:25:51.855Z",
+    "edApp": "https://09d94930-c6d9-437a-844b-46366de94354.lms.brightspace.com/",
+    "membership": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Membership",
+      "member": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "organization": {
+        "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+        "type": "Organization",
+        "otherIdentifiers": [
+          {
+            "type": "SystemIdentifier",
+            "identifier": "6606",
+            "identifierType": "SystemId"
+          }
+        ],
+        "extensions": {
+          "d2l_orgUnitType": "Organization"
+        }
+      },
+      "extensions": {
+        "d2l_roleId": "69",
+        "d2l_mappedImsRoles": [
+          "http://purl.imsglobal.org/vocab/lis/v2/institution/person#Administrator"
+        ]
+      }
+    },
+    "extensions": {
+      "d2l_originalEventId": "600b5297-3fce-42fe-87e9-86f4150a30e1",
+      "d2l_tenantId": "09d94930-c6d9-437a-844b-46366de94354"
+    }
+    }

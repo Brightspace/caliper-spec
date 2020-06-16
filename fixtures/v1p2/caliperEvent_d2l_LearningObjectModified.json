@@ -1,0 +1,67 @@
+ {
+    "@context": "http://purl.imsglobal.org/ctx/caliper/v1p2",
+    "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+    "type": "ResourceManagementEvent",
+    "profile": "ResourceManagementProfile",
+    "actor": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Person",
+      "extensions": {
+        "d2l_impersonatingUser": "urn:uuid:00000000-0000-0000-0000-000000000000",
+        "d2l_impersonatingUserId": "456"
+      },
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "169",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "action": "Modified",
+    "object": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "DigitalResource",
+      "extensions": {
+        "d2l_activityType": "https://api.brightspace.com/caliper/activities/tools/learning_object_repository/learning_object"
+      },
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "42",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "eventTime": "2020-03-17T12:14:32.926Z",
+    "edApp": "https://26b5e48c-f97f-45d5-813f-9b03787b3f2f.lms.brightspace.com/",
+    "membership": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Membership",
+      "member": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "organization": {
+        "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+        "type": "Organization",
+        "otherIdentifiers": [
+          {
+            "type": "SystemIdentifier",
+            "identifier": "6606",
+            "identifierType": "SystemId"
+          }
+        ],
+        "extensions": {
+          "d2l_orgUnitType": "Organization"
+        }
+      },
+      "extensions": {
+        "d2l_roleId": "2",
+        "d2l_mappedImsRoles": [
+          "http://purl.imsglobal.org/vocab/lis/v2/institution/person#Student"
+        ]
+      }
+    },
+    "extensions": {
+      "d2l_originalEventId": "08039245-6f8c-4b41-94e5-50040aacfbe5",
+      "d2l_tenantId": "26b5e48c-f97f-45d5-813f-9b03787b3f2f"
+    }
+  }

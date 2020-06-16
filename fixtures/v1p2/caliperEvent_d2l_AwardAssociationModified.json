@@ -1,0 +1,65 @@
+ {
+    "@context": "http://purl.imsglobal.org/ctx/caliper/v1p2",
+    "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+    "type": "ResourceManagementEvent",
+    "profile": "ResourceManagementProfile",
+    "actor": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Person",
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "169",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "action": "Modified",
+    "object": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "DigitalResource",
+      "extensions": {
+        "d2l_activityType": "https://api.brightspace.com/caliper/activities/tools/award/association",
+        "d2l_associatedAwardId": "12",
+        "d2l_associatedOrgUnitId": "1000"
+      },
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "29",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "eventTime": "2020-05-04T16:13:29.900Z",
+    "edApp": "https://186f51e6-094a-4668-a7a0-9f89d2497b9b.lms.brightspace.com/",
+    "membership": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Membership",
+      "member": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "organization": {
+        "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+        "type": "Organization",
+        "otherIdentifiers": [
+          {
+            "type": "SystemIdentifier",
+            "identifier": "6609",
+            "identifierType": "SystemId"
+          }
+        ],
+        "extensions": {
+          "d2l_orgUnitType": "Course Offering"
+        }
+      },
+      "extensions": {
+        "d2l_roleId": "69",
+        "d2l_mappedImsRoles": [
+          "urn:lti:instrole:ims/lis/Administrator"
+        ]
+      }
+    },
+    "extensions": {
+      "d2l_originalEventId": "186f51e6-094a-4668-a7a0-9f89d2497b9d",
+      "d2l_tenantId": "186f51e6-094a-4668-a7a0-9f89d2497b9b"
+    }
+  }

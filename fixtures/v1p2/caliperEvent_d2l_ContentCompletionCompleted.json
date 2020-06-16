@@ -1,0 +1,64 @@
+ {
+    "@context": "http://purl.imsglobal.org/ctx/caliper/v1p2",
+    "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+    "type": "Event",
+    "profile": "GeneralProfile",
+    "actor": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Person",
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "32456",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "action": "Completed",
+    "object": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "DigitalResource",
+      "extensions": {
+        "d2l_activityType": "https://api.brightspace.com/caliper/activities/tools/content/topic"
+      },
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "1161",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "eventTime": "2020-05-04T16:13:29.900Z",
+    "edApp": "https://186f51e6-094a-4668-a7a0-9f89d2497b9b.lms.brightspace.com/",
+    "membership": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Membership",
+      "member": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "organization": {
+        "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+        "type": "Organization",
+        "otherIdentifiers": [
+          {
+            "type": "SystemIdentifier",
+            "identifier": "132955",
+            "identifierType": "SystemId"
+          }
+        ],
+        "extensions": {
+          "d2l_orgUnitType": "Course Offering"
+        }
+      },
+      "extensions": {
+        "d2l_roleId": "11936",
+        "d2l_mappedImsRoles": [
+          "urn:lti:instrole:ims/lis/Student",
+          "urn:lti:instrole:ims/lis/Learner"
+        ]
+      }
+    },
+    "extensions": {
+      "d2l_originalEventId": "bc7934b8-9553-4b90-839d-e78c283e23c3",
+      "d2l_tenantId": "186f51e6-094a-4668-a7a0-9f89d2497b9b"
+    }
+  }

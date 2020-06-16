@@ -1,0 +1,67 @@
+ {
+    "@context": "http://purl.imsglobal.org/ctx/caliper/v1p2",
+    "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+    "type": "ResourceManagementEvent",
+    "profile": "ResourceManagementProfile",
+    "actor": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Person",
+      "extensions": {
+        "d2l_impersonatingUser": "urn:uuid:00000000-0000-0000-0000-000000000000",
+        "d2l_impersonatingUserId": "456"
+      },
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "169",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "action": "Created",
+    "object": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "DigitalResource",
+      "extensions": {
+        "d2l_activityType": "https://api.brightspace.com/caliper/activities/tools/assignment/folder"
+      },
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "4",
+          "identifierType": "SystemId"
+        }
+      ]
+    },
+    "eventTime": "2019-01-09T16:41:37.423Z",
+    "edApp": "https://09d94930-c6d9-437a-844b-46366de94354.lms.brightspace.com/",
+    "membership": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Membership",
+      "member": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "organization": {
+        "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+        "type": "Organization",
+        "otherIdentifiers": [
+          {
+            "type": "SystemIdentifier",
+            "identifier": "6609",
+            "identifierType": "SystemId"
+          }
+        ],
+        "extensions": {
+          "d2l_orgUnitType": "Course Offering"
+        }
+      },
+      "extensions": {
+        "d2l_roleId": "69",
+        "d2l_mappedImsRoles": [
+          "http://purl.imsglobal.org/vocab/lis/v2/institution/person#Administrator"
+        ]
+      }
+    },
+    "extensions": {
+      "d2l_originalEventId": "074ace26-b55a-4c46-a60f-606e7328717d",
+      "d2l_tenantId": "09d94930-c6d9-437a-844b-46366de94354"
+    }
+  }
