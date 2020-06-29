@@ -1,0 +1,76 @@
+{
+  "@context": "http://purl.imsglobal.org/ctx/caliper/v1p2",
+  "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+  "type": "ToolLaunchEvent",
+  "profile": "ToolLaunchProfile",
+  "actor": {
+    "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+    "type": "Person",
+    "extensions": {
+      "d2l_impersonatingUser": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "d2l_impersonatingUserId": "169"
+    },
+    "otherIdentifiers": [
+      {
+        "type": "SystemIdentifier",
+        "identifier": "100",
+        "identifierType": "SystemId"
+      }
+    ]
+  },
+  "action": "Launched",
+  "object": {
+    "id": "urn:uuid:5d24dde1-f178-4b88-a08d-4f0af78d9c07",
+    "type": "SoftwareApplication",
+    "otherIdentifiers": [
+      {
+        "type": "SystemIdentifier",
+        "identifier": "5d24dde1-f178-4b88-a08d-4f0af78d9c07",
+        "identifierType": "LtiToolId"
+      },
+      {
+        "type": "SystemIdentifier",
+        "identifier": "f6fca57b-cf58-4a76-ad12-5d280ded12d6",
+        "identifierType": "LtiDeploymentId"
+      }
+    ]
+  },
+  "federatedSession": "urn:uuid:00000000-0000-0000-0000-000000000000",
+  "target": {
+    "id": "http://example.tool.com/links/68a182ee-c832-4ab8-b20d-dc1c82a7cf1d",
+    "type": "LtiLink",
+    "messageType": "LtiResourceLinkRequest"
+  },
+  "eventTime": "2019-01-09T16:41:37.423Z",
+  "edApp": "https://09d94930-c6d9-437a-844b-46366de94354.lms.brightspace.com/",
+  "membership": {
+    "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+    "type": "Membership",
+    "member": "urn:uuid:00000000-0000-0000-0000-000000000000",
+    "organization": {
+      "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "type": "Organization",
+      "otherIdentifiers": [
+        {
+          "type": "SystemIdentifier",
+          "identifier": "6609",
+          "identifierType": "SystemId"
+        }
+      ],
+      "extensions": {
+        "d2l_orgUnitType": "Course Offering"
+      }
+    },
+    "extensions": {
+      "d2l_roleId": "2",
+      "d2l_mappedImsRoles": [
+        "http://purl.imsglobal.org/vocab/lis/v2/institution/person#Student",
+        "http://purl.imsglobal.org/vocab/lis/v2/membership#Learner"
+      ]
+    }
+  },
+  "extensions": {
+    "d2l_originalEventId": "2cc18b69-04c5-40de-8f89-a80a35909fb1",
+    "d2l_tenantId": "09d94930-c6d9-437a-844b-46366de94354"
+  }
+}
