@@ -20,20 +20,6 @@
   },
   "action": "Used",
   "object": "https://09d94930-c6d9-437a-844b-46366de94354.lms.brightspace.com/",
-  "target": {
-    "id": "urn:uuid:00000000-0000-0000-0000-000000000000",
-    "type": "Organization",
-    "otherIdentifiers": [
-      {
-        "type": "SystemIdentifier",
-        "identifier": "121213",
-        "identifierType": "SystemId"
-      }
-    ],
-    "extensions": {
-      "d2l_orgUnitType": "Course Offering"
-    }
-  },
   "eventTime": "2019-06-03T12:07:44.048Z",
   "edApp": "https://09d94930-c6d9-437a-844b-46366de94354.lms.brightspace.com/",
   "membership": {
